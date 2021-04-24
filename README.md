@@ -9,4 +9,4 @@
 after that, it will create a text file of your bookmark list and the same list will be shown on the console
 
 ## Notes
-a simplified version of [this](https://greasyfork.org/en/scripts/390432-mananelo-mangakakalot-bookmarks-export/code) script
+a modified version of [this](https://greasyfork.org/en/scripts/390432-mananelo-mangakakalot-bookmarks-export/code) script
