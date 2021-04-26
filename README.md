@@ -1,4 +1,4 @@
-# manganelo-mangakakalot-bookmark-list
+# manganelo-mangakakalot-save-bookmark-list
 
 ## Usage
 
