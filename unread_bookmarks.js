@@ -52,6 +52,7 @@ addBookarkStyles(`
                             let sLatest = oGetChapter(sChapter[1].href);
                             let sLastRead = oGetChapter(sChapter[0].href);
 
+                            //change this to if(sLastRead === sLatest) to get all read manga
                             if(sLastRead !== sLatest) {
                                 bookmarkedTitles += oBookmarkItem.text() + ` | `+oBookmarkItem.attr('href') + `  | Last Read: ${sChapter.length > 0 ? sChapter[0].text : 'Not Found' }` + `  | Latest: ${sChapter.length > 0 ? sChapter[1].text : 'Not Found' } \n`
                             }
