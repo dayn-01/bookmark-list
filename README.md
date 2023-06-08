@@ -3,14 +3,14 @@
 ## google_play_total_used/g_play_total_used_by_game.js
 - Getting google playstore total moolah used
 
-## Usage
+### Usage
  
 - go to https://play.google.com/store/account/orderhistory
 - make sure all orders are loaded.
 - make sure to check the comments and update them.
 - run the script on the dev console
 
-## Usage for g_play_total_used_by_game.js
+### Usage for g_play_total_used_by_game.js
 same with the first one but:
 
 on the code, you can see the target__
