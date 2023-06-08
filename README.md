@@ -7,6 +7,7 @@
  
 - go to https://play.google.com/store/account/orderhistory
 - make sure all orders are loaded.
+- make sure to check the comments and update them.
 - run the script on the dev console
 
 ## Usage for g_play_total_used_by_game.js
