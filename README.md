@@ -1,4 +1,4 @@
-# Repo for js things i did
+# Repo for js things i do
 
 ## google_play_total_used
 - Getting google playstore total moolah used
