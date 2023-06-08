@@ -27,11 +27,11 @@ and you get the `img src` by doing ctrl + shift + c, clicking the image, and the
 
 img: picking the img
 
-![image](https://github.com/dayn-01/random-js-console-thing-repo/assets/34685779/d325de76-e6c1-4cff-b0a3-26ddf986cbaf)
+![image](https://github.com/dayn-01/random-js-console-thing-repo/assets/34685779/cd19101d-2f84-4dd5-9596-aa98b10784d0)
 
 img: location of the img src link
 
-![image](https://github.com/dayn-01/random-js-console-thing-repo/assets/34685779/b7d1550d-f724-4d6f-90bd-e1dfb0f38ca7)
+![image](https://github.com/dayn-01/random-js-console-thing-repo/assets/34685779/6ad705c5-cac1-4270-8a15-6351778d1dc0)
 
 
 ## save_bookmarks/unread_bookmarks (outdated)
