@@ -10,15 +10,16 @@ for(i; length__ > i; i++ ) {
     //check if its a certain game
     let img = parent__[i];
     // this needs to be changed per game
-    let target__ = 'https://play-lh.googleusercontent.com/mMCDyXzbxDO6EfFH3fmIY9KdiYY0VG-qSKRUnYjuUmOoObXQFTo7Ty2Xmzu2bZ0DcaE=s50-rw';
+    let target__ = 'https://play-lh.googleusercontent.com/OmRFgoSS-iZDwzkMpygYEjbBkpY-_fpE2CEiEgj2KG0yoj2DcP01fbGMutWEf8ip2tiv=s50-rw';
     let identifier = img.getElementsByTagName('img')[0].src;
 
-    if(target__ == identifier) {    
+    if(target__.match(identifier)) {    
     let value = id__[i].innerHTML;
     let currency_default = "$"; //needs to be changed per country
     let currency = "₱" //needs to be changed per country
     let final_ = value.replace(currency_default, '');
     final_ = final_.replace(currency, '');
+    final_=final_.replace(/\,/g,'');
     let floatfin_ = parseFloat(final_);
     addthings(floatfin_);
     }
