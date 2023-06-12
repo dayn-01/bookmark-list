@@ -9,6 +9,7 @@ for(i; length__ > i; i++ ) {
     let currency = "₱"; //needs to be changed per country
     let final_ = value.replace(currency_default, '');
     final_ = final_.replace(currency, '');
+    final_=final_.replace(/\,/g,''); //removes comma
     let floatfin_ = parseFloat(final_);
     addthings(floatfin_);
 }
